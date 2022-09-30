@@ -2,4 +2,10 @@
   display: flex;
   column-gap: 10px;
   padding: 10px;
+  background-color: #fff9f0;
+}
+
+.navigation :global(.active) {
+  font-weight: bold;
+  text-decoration: underline;
 }

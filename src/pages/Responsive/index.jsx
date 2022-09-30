@@ -1,41 +1,78 @@
-import Link from '@mui/material/Link';
+import img from '../../images/adaptive.png';
+import rwdVsAdapt from '../../images/rwd-vs-adapt-example.gif';
+import styles from './styles.module.css';
 
 const Responsive = () => {
   return (
-    <div className='responsive'>
-      <h2>4. Респонсивная (отзывчивая) верстка</h2>
+    <div className={styles.responsive}>
+      <ul className={styles.menu}>
+        <li>Menu item 1</li>
+        <li>Menu item 2</li>
+        <li>Menu item 3</li>
+      </ul>
 
-      <p>
-        <strong>Данный тип верстки,</strong> часто путают с адаптивным, но в
-        отличие от последнего, основывается на принципе «резины», но так же как
-        и он используют медиа-запросы для адаптации сайта под ширину устройства.
-        Если в адаптивной верстке при изменении размеров окна внешний вид сайта
-        изменяется несколько раз в зависимости от контрольных точек, то в
-        респонсивной верстке он изменяется постоянно.
-      </p>
+      <div className={styles.description}>
+        <h2>4. Респонсивна (відзивчива) верстка</h2>
 
-      <p>
-        Получившаяся в результате страница не «прыгает» по контрольным точкам,
-        как в адаптивной версте, а плавно изменяется между ними.
-      </p>
+        <p>
+          <strong>Даний тип верстки</strong> часто плутають з адаптивним, але на
+          відміну від останнього, ґрунтується на принципі «гуми», але так само
+          як і він використовують медіа-запити для адаптації сайту під ширину
+          пристрою. Якщо в адаптивній верстці при зміні розмірів вікна зовнішній
+          вигляд сайту змінюється кілька разів, залежно від контрольних точок,
+          то в респонсивній верстці він змінюється постійно.
+        </p>
 
-      <p>
-        <strong>Плюсы:</strong> Не имеет значения то, как сильно растягивается
-        размер окна, отзывчивый макет сайта всегда будет адекватно
-        подстраиваться под это разрешение.
-      </p>
+        <p>
+          Сторінка, що вийшла в результаті, не «стрибає» по контрольних точках,
+          як в адаптивній версті, а плавно змінюється між ними.
+        </p>
 
-      <p>
-        <strong>Минусы:</strong> Сложнее реализовать, чем адаптивную верстку.
-      </p>
+        <p>
+          <strong>Плюси:</strong> Не має значення те, як сильно розтягується
+          розмір вікна, відзивчивий макет сайту завжди адекватно
+          підлаштовуватиметься під цю роздільну здатність.
+        </p>
 
-      <Link
-        href='https://www.invisionapp.com/inside-design/examples-responsive-web-design'
-        target='_blank'
-        rel='noreferrer'
-      >
-        11 powerful examples of responsive web design
-      </Link>
+        <p>
+          <strong>Мінуси:</strong> Іноді складніше реалізувати, ніж адаптивну
+          верстку.
+        </p>
+
+        <img
+          className={styles.img}
+          src={rwdVsAdapt}
+          alt='responsive VS adaptive design example'
+        />
+        <p>
+          <strong>Верхній блок є респонсивним, а нижній – адаптивним</strong>
+        </p>
+      </div>
+
+      <div className={styles.col}>
+        <img className={styles.img} src={img} alt='sample pic' />
+
+        <div className='last-column'>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+            reprehenderit porro amet, ut saepe commodi aspernatur officia
+            consectetur cumque praesentium eum assumenda magnam nihil dolore
+            deserunt veniam hic id ducimus?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+            eveniet dolorem quasi, quisquam quas hic iste inventore, dolores
+            quis nobis enim voluptas nesciunt labore tenetur, atque optio
+            reprehenderit recusandae esse.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            optio beatae velit, animi illo nam delectus quis consectetur
+            explicabo omnis dolore amet laudantium quod minus natus
+            reprehenderit. Mollitia, fugiat reprehenderit!
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

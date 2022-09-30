@@ -35,6 +35,25 @@ const Rubber = () => {
       </p>
 
       <img src={img} alt='sample pic' />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem
+        iste ad aspernatur et porro quasi a quas, ex natus aliquid ipsa eveniet
+        nulla, consequuntur vero facilis alias veritatis ipsam!
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, aliquam
+        fuga. Enim possimus, magnam aperiam aliquam explicabo omnis, facilis
+        voluptate eaque porro eos dicta officiis laudantium debitis corrupti?
+        Consectetur, minima.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse
+        repellat aliquam, architecto nulla, molestiae eaque vitae impedit ut
+        accusantium, labore rem nisi illum totam culpa magni amet mollitia eos!
+      </p>
     </div>
   );
 };

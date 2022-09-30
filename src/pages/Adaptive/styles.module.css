@@ -1,3 +1,8 @@
+.adaptiveWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .adaptive {
   display: flex;
   column-gap: 10px;
@@ -5,20 +10,77 @@
   align-items: flex-start;
 }
 
-@media (max-width: 768px) {
+.description {
+  flex: 1;
+}
+
+.menu {
+  display: flex;
+  padding: 10px;
+  column-gap: 30px;
+  row-gap: 10px;
+  list-style: none;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.img {
+  width: 100%;
+}
+
+@media (max-width: 370px) {
   .adaptive {
     flex-direction: column;
+    width: 300px;
   }
-  .img {
-    width: 100%;
+  .menu {
+    flex-direction: column;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 371px) {
   .adaptive {
+    flex-direction: column;
+    width: 300px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) {
+  .adaptive {
+    width: 450px;
+  }
+  .menu {
     flex-direction: row;
   }
-  .img {
-    max-width: 500px;
+}
+
+@media (min-width: 700px) {
+  .adaptive {
+    width: 650px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .adaptive {
+    flex-direction: row;
+    width: 1050px;
+  }
+  .menu {
+    flex-direction: column;
+    width: 150px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .adaptive {
+    flex-direction: row;
+    width: 1450px;
   }
 }
