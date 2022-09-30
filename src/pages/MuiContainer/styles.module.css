@@ -1,0 +1,17 @@
+.page {
+  padding: 10px;
+}
+
+.img {
+  max-width: 800px;
+}
+
+.paper {
+  padding: 10px;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 1.5em;
+  text-align: center;
+}

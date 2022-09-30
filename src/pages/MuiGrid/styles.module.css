@@ -1,0 +1,13 @@
+.page {
+  padding: 10px;
+  row-gap: 10px;
+}
+
+.img {
+  max-width: 800px;
+}
+
+.paper {
+  padding: 10px;
+  color: gray;
+}

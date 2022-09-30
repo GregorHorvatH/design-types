@@ -20,6 +20,21 @@ const Navigation = () => {
       <Link component={RouterLink} underline='hover' to='responsive'>
         Responsive
       </Link>
+      <Link component={RouterLink} underline='hover' to='mui-grid'>
+        MUI Grid
+      </Link>
+      <Link component={RouterLink} underline='hover' to='mui-container'>
+        MUI Container
+      </Link>
+      <Link component={RouterLink} underline='hover' to='mui-breakpoints'>
+        MUI Breakpoints
+      </Link>
+      <Link component={RouterLink} underline='hover' to='mui-use-media-query'>
+        MUI useMediaQuery
+      </Link>
+      <Link component={RouterLink} underline='hover' to='mui-hidden'>
+        MUI Hidden
+      </Link>
     </div>
   );
 };
