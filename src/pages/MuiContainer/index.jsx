@@ -7,18 +7,19 @@ import styles from './styles.module.css';
 const MuiPage = () => (
   <div className={styles.page}>
     <Link
-      href='https://v4.mui.com/ru/components/container/'
-      target='_blank'
-      rel='noreferrer'
-      underline='none'
+      href="https://v4.mui.com/ru/components/container/"
+      target="_blank"
+      rel="noreferrer"
+      underline="none"
     >
       <h2>Container</h2>
     </Link>
+
     <p>
       <strong>Container:</strong> Контейнер центрує ваш контент по горизонталі.
       Це є базовим елементом усіх макетів.
     </p>
-    <img className={styles.img} src={breakpoints} alt='breakpoints' />
+    <img className={styles.img} src={breakpoints} alt="breakpoints" />
     <hr />
 
     <Container>
@@ -30,7 +31,7 @@ const MuiPage = () => (
     </Container>
     <hr />
 
-    <Container maxWidth='sm'>
+    <Container maxWidth="sm">
       <Paper elevation={3} className={styles.paper}>
         <h3>Container with maxWidth</h3>
         <p className={styles.code}>
