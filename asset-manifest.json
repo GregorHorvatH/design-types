@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/design-types/static/css/main.6c5d248c.css",
+    "main.js": "/design-types/static/js/main.363dc3b9.js",
+    "static/media/rwd-vs-adapt-example.gif": "/design-types/static/media/rwd-vs-adapt-example.f7469debdddb91de99fc.gif",
+    "static/media/breakpoints.png": "/design-types/static/media/breakpoints.0161b658732b623e7041.png",
+    "static/media/rubber.png": "/design-types/static/media/rubber.91f9cb5770a4a656c615.png",
+    "static/media/adaptive.png": "/design-types/static/media/adaptive.9382a1b62377a829056e.png",
+    "static/media/fixed.png": "/design-types/static/media/fixed.aaf0a446d851b6a48d3c.png",
+    "index.html": "/design-types/index.html",
+    "main.6c5d248c.css.map": "/design-types/static/css/main.6c5d248c.css.map",
+    "main.363dc3b9.js.map": "/design-types/static/js/main.363dc3b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c5d248c.css",
+    "static/js/main.363dc3b9.js"
+  ]
+}
