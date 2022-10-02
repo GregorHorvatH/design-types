@@ -1,22 +1,9 @@
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-import Paper from '@mui/material/Paper';
-import useMediaQuery from '@mui/material/useMediaQuery';
+import { Link, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 
+import TestContainer from '../../components/TestContainer';
 import breakpoints from '../../images/breakpoints.png';
 import styles from './styles.module.css';
-
-const TestContainer = ({ children }) => (
-  <>
-    <Container>
-      <Paper elevation={3} className={styles.paper}>
-        {children}
-      </Paper>
-    </Container>
-    <hr />
-  </>
-);
 
 const MuiPage = () => {
   const theme = useTheme();

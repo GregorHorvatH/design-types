@@ -1,2 +1,24 @@
 .page {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.paper {
+  padding: 10px;
+}
+
+.paper p {
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+
+.img {
+  max-width: 800px;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 1.5em;
+  text-align: center;
 }

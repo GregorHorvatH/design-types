@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/styles';
 import { StyledEngineProvider, useTheme } from '@mui/material/styles';
 
 import Navigation from '../../components/Navigation';
+import BreakpointIndicator from '../../components/BreakpointIndicator';
 import Home from '../Home';
 import Adaptive from '../Adaptive';
 import Fixed from '../Fixed';
@@ -18,21 +19,22 @@ const App = () => {
   const theme = useTheme();
 
   return (
-    <div className="design-types">
+    <div className='design-types'>
       <StyledEngineProvider injectFirst>
         <ThemeProvider theme={theme}>
           <Navigation />
+          <BreakpointIndicator />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="fixed" element={<Fixed />} />
-            <Route path="rubber" element={<Rubber />} />
-            <Route path="adaptive" element={<Adaptive />} />
-            <Route path="responsive" element={<Responsive />} />
-            <Route path="mui-grid" element={<MuiGrid />} />
-            <Route path="mui-container" element={<MuiContainer />} />
-            <Route path="mui-breakpoints" element={<MuiBreakpoints />} />
-            <Route path="mui-use-media-query" element={<MuiUseMediaQuery />} />
-            <Route path="mui-hidden" element={<MuiHidden />} />
+            <Route path='/' element={<Home />} />
+            <Route path='fixed' element={<Fixed />} />
+            <Route path='rubber' element={<Rubber />} />
+            <Route path='adaptive' element={<Adaptive />} />
+            <Route path='responsive' element={<Responsive />} />
+            <Route path='mui-grid' element={<MuiGrid />} />
+            <Route path='mui-container' element={<MuiContainer />} />
+            <Route path='mui-breakpoints' element={<MuiBreakpoints />} />
+            <Route path='mui-use-media-query' element={<MuiUseMediaQuery />} />
+            <Route path='mui-hidden' element={<MuiHidden />} />
           </Routes>
         </ThemeProvider>
       </StyledEngineProvider>

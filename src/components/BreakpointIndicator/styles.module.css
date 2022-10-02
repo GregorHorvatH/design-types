@@ -1,0 +1,13 @@
+.breakpointIndicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.breakpointIndicator strong {
+  color: #111196;
+  padding-left: 10px;
+}
